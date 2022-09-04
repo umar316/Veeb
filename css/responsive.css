@@ -1,0 +1,36 @@
+/* From Laptop To Ipad Landscape */
+@media all and (max-width:1366px){
+	
+	/* Dashboard Screen Styles */
+	
+	
+	/* Dashboard Screen Styles */
+	
+}
+/* From Ipad Landscape To Ipad Portrait */
+@media all and (max-width:1024px){
+	
+	/* Dashboard Screen Styles */
+	
+	/* Dashboard Screen Styles */
+	
+}
+
+/* From Ipad Portrait To Mobile Landscape */
+@media all and (max-width:768px) {
+	
+	/* Dashboard Screen Styles */
+	
+	/* Dashboard Screen Styles */
+	
+	
+}
+
+
+/* From Mobile Landscape To Portrait */
+@media all and (max-width:480px){
+	
+	/* Dashboard Screen Styles */
+	
+	
+}

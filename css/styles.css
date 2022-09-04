@@ -1,0 +1,124 @@
+/* Base Styles */
+
+@font-face {
+    font-family: 'robotoregular';
+    src: url('../fonts/roboto-regular-webfont.woff2') format('woff2'),
+         url('../fonts/roboto-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'poppinsregular';
+    src: url('../fonts/poppins-regular-webfont.woff2') format('woff2'),
+         url('../fonts/poppins-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+html {
+    height: 100%;
+}
+body{
+	font-family: 'poppinsregular';
+	float: left;
+    width: 100%;
+	height: 100%;
+}
+.no-border{
+	border:0 none !important;
+}
+.clear-fix{
+	clear:both;
+}
+select{
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	-ms-appearance: none;
+	-o-appearance: none;
+	appearance: none;
+}
+
+a{
+	text-decoration: none !important;
+}
+
+/* Base Styles */
+
+/* Home Page Styles */
+
+.header {
+    padding: 10px 0 9px;
+}
+.primary-nav {
+    padding-top: 9px;
+}
+.primary-nav ul {
+    float: left;
+    margin-bottom: 0;
+}
+
+.primary-nav li {
+    float: left;
+    margin-right: 50px;
+}
+
+.primary-nav li a {
+    font-family: 'robotoregular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #000000;
+	text-transform: uppercase;
+}
+
+.site-front {
+    height: calc(100% - 70px);
+    background: #F9F9FC;
+	display: flex;
+    align-items: center;
+}
+.callout-message {
+    text-align: center;
+}
+.callout-message h1{
+	font-style: normal;
+	font-weight: 700;
+	font-size: 60px;
+	line-height: 75px;
+	color: #000000;
+	margin: 0;
+    padding-bottom: 15px;
+	text-align: left;
+}
+
+.callout-message h1 span{
+	color:#5B67CA;
+}
+
+.callout-message p {
+    margin: 0;
+    padding-bottom: 46px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 30px;
+	text-align: left;
+}
+
+.callout-message .btn-primary {
+	font-family: 'robotoregular';
+    background: #0066FF;
+    border-radius: 21px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+	padding: 10px 39px;
+}
+
+
+/* Home Page Styles */
