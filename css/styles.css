@@ -44,19 +44,59 @@ select{
 a{
 	text-decoration: none !important;
 }
+ol, ul {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+body h1{
+	font-style: normal;
+	font-weight: 700;
+	font-size: 60px;
+	line-height: 75px;
+	color: #000000;
+	margin: 0;
+    padding-bottom: 15px;
+	text-align: left;
+}
 
+body h1 span{
+	color:#5B67CA;
+}
+.card h2{
+    font-family: 'poppinsregular';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 30px;
+    text-align: center;
+    color: #000000;
+}
+section {
+    background: #fff;
+    float: left;
+    width: 100%;
+}
+section.bg-gray{
+    background: #F9F9FC;
+}
+ul.card {
+    margin-top: 14px !important;
+    line-height: 30px;
+}
 /* Base Styles */
 
 /* Home Page Styles */
 
 .header {
     padding: 10px 0 9px;
+    float: left;
+    width: 100%;
 }
 .primary-nav {
     padding-top: 9px;
 }
 .primary-nav ul {
-    float: left;
+    float: right;
     margin-bottom: 0;
 }
 
@@ -77,26 +117,11 @@ a{
 
 .site-front {
     height: calc(100% - 70px);
-    background: #F9F9FC;
 	display: flex;
     align-items: center;
 }
 .callout-message {
     text-align: center;
-}
-.callout-message h1{
-	font-style: normal;
-	font-weight: 700;
-	font-size: 60px;
-	line-height: 75px;
-	color: #000000;
-	margin: 0;
-    padding-bottom: 15px;
-	text-align: left;
-}
-
-.callout-message h1 span{
-	color:#5B67CA;
 }
 
 .callout-message p {
@@ -109,16 +134,151 @@ a{
 	text-align: left;
 }
 
-.callout-message .btn-primary {
+.callout-message .btn-primary,.call-to-action .btn-primary {
 	font-family: 'robotoregular';
     background: #0066FF;
     border-radius: 21px;
     font-style: normal;
-    font-weight: 700;
     font-size: 16px;
     line-height: 19px;
 	padding: 10px 39px;
 }
 
+.info {
+    padding: 26px 0 89px;
+}
+.info h1{
+    font-size: 45px;
+    line-height: 55px;
+    text-align: center;
+    padding: 0 0 55px;
+}
+.info ul{
+    line-height: 30px;
+}
+.info ul li {
+    font-family: 'poppinsregular';
+}
+
+.card-small-text {
+    text-align: center;
+}
+.info .content .container > .row > .card {
+    width: 48.5%;
+}
+
+.info .row:first-child > .card {
+    width: 23.5% !important;
+}
+.how-it-works h1,.how-it-works > p{
+}
+.how-it-works .col-lg-2 {
+    width: 18.5%;
+    text-align: center;
+}
+.card h3 {
+    padding: 27px 0 4px;
+    margin: 0;
+    font-family: 'poppinsregular';
+    font-style: normal;
+    font-size: 14px;
+    line-height: 26px;
+    text-align: center;
+    color: #23262F;
+    font-weight: bold;
+}
+.hiw-icons {
+    width: 70px;
+    height: 70px;
+    margin: 0 auto;
+}
+.hiw-icons img {
+    padding: 0.5rem;
+}
+.before-heading {
+    font-size: 16px;
+    display: block;
+    line-height: 100%;
+}
+.how-it-works {
+    padding: 100px 0 117px;
+}
+.how-it-works .container > p {
+    padding-bottom: 77px;
+    margin: 0;
+}
+.process .card {
+    width: 31%;
+}
+.process h3 {
+    text-align: left;
+}
+.process img {
+    width: 73px;
+    height: 73px;
+}
+.call-to-action {
+    max-width: 1052px;
+    background: #191F28;
+    border: 1px solid #EBEBEB;
+    border-radius: 32px;
+    margin: 0 auto 98px;
+    float: none;
+    padding: 51px 0 50px;
+    clear: both;
+    text-align: center;
+    width: auto;
+}
+.call-to-action h1 {
+    text-align: center;
+    color: #fff;
+    font-size: 37px;
+}
+
+.call-to-action p {
+    font-family: 'poppinsregular';
+    color: #fff;
+    padding-bottom: 33px;
+}
+.footer {
+    background: #000000;
+    color: #fff;
+    text-align: center;
+    padding: 74px 0 28px;
+}
+.footer strong {
+    font-family: 'poppinsregular';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    padding-bottom: 18px;
+    display: inline-block;
+}
+
+.footer address {
+    margin: 0;
+    padding-bottom: 60px;
+    font-family: 'poppinsregular';
+    line-height: 36px;
+}
+.footer address a{
+    color:#fff;
+}
+.social-links {
+    display: inline-block;
+    text-align: left;
+    padding-top: 23px;
+}
+
+.social-links nav {
+    float: right;
+    padding-left: 15px;
+}
+
+.social-links nav ul li {
+    float: left;
+    padding-right: 10px;
+}
 
 /* Home Page Styles */
