@@ -21,6 +21,9 @@
 html {
     height: 100%;
 }
+.container {
+    max-width: 1440px;
+}
 body{
 	font-family: 'poppinsregular';
 	float: left;
@@ -61,6 +64,12 @@ body h1{
 
 body h1 span{
 	color:#5B67CA;
+}
+button.navbar-toggler {
+    display: none;
+}
+.collapse:not(.show) {
+    display: block !important
 }
 .card h2{
     font-family: 'poppinsregular';
@@ -163,18 +172,29 @@ ul.card {
 .card-small-text {
     text-align: center;
 }
+/*
 .info .content .container > .row > .card {
     width: 48.5%;
 }
+*/
 
+/*
 .info .row:first-child > .card {
     width: 23.5% !important;
 }
+*/
+
 .how-it-works h1,.how-it-works > p{
 }
-.how-it-works .col-lg-2 {
-    width: 18.5%;
+.how-it-works .col-2 {
+    width: 20%;
     text-align: center;
+}
+.how-it-works .col-2 > .card {
+    height: 100%;
+}
+.how-it-works .col-2 > .card p{
+    font-size:12px;
 }
 .card h3 {
     padding: 27px 0 4px;
@@ -186,6 +206,9 @@ ul.card {
     text-align: center;
     color: #23262F;
     font-weight: bold;
+}
+.info .col-lg-3 > .card {
+    height: 330px;
 }
 .hiw-icons {
     width: 70px;
@@ -207,17 +230,50 @@ ul.card {
     padding-bottom: 77px;
     margin: 0;
 }
+.info ul li {
+    font-size: 13px;
+}
+.info .card p {
+    font-size: 13px;
+    line-height: 20px;
+    font-family: 'poppinsregular';
+}
+.info .col-lg-6 .card p {
+    font-size: 12px;
+}
+.how-it-works.process .col-4 > .card{
+    height:100%;
+}
+.how-it-works.process .col-4 > .card p{
+    font-size:14px;
+}
+/*
 .process .card {
     width: 31%;
 }
+*/
 .process h3 {
     text-align: left;
+}
+.process .card p {
+    font-family: 'poppinsregular';
+    font-size: 14px;
+    line-height: 30px;
 }
 .process img {
     width: 73px;
     height: 73px;
 }
+.process .card {
+    height: 100%;
+}
 .call-to-action {
+    float: none;
+    padding: 0 15px;
+    clear: both;
+    
+}
+.call-to-action .wrapper{
     max-width: 1052px;
     background: #191F28;
     border: 1px solid #EBEBEB;
@@ -229,6 +285,7 @@ ul.card {
     text-align: center;
     width: auto;
 }
+
 .call-to-action h1 {
     text-align: center;
     color: #fff;

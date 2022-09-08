@@ -1,27 +1,107 @@
 /* From Laptop To Ipad Landscape */
-@media all and (max-width:1366px){
+@media all and (max-width:1200px){
 	
-	/* Dashboard Screen Styles */
-	
-	
-	/* Dashboard Screen Styles */
+	/* Home Screen Styles */
+
+	body h1 {
+		font-size: 42px;
+		line-height: 56px;
+	}
+	.primary-nav li {
+		margin-right: 25px;
+	}
+	.primary-nav li a {
+		font-size: 12px;
+	}
+	.info .col-lg-3 > .card {
+		height: 100%;
+	}
+	.process .card {
+		height: 100%;
+	}
+	.site-front {
+		height: auto;
+		padding: 50px 0;
+	}
+	.info .col-lg-3,.info .col-lg-6 {
+		margin-bottom: 20px;
+	}
+
+	/* Home Screen Styles */
 	
 }
 /* From Ipad Landscape To Ipad Portrait */
-@media all and (max-width:1024px){
+@media all and (max-width:992px){
 	
-	/* Dashboard Screen Styles */
-	
-	/* Dashboard Screen Styles */
+	/* Home Screen Styles */
+	.primary-nav li {
+		margin-right: 15px;
+	}
+	.how-it-works .row {
+		justify-content: center;
+	}
+	.how-it-works .col-2 {
+		width: 30%;
+		margin-bottom: 20px;
+	}
+
+	/* Home Screen Styles */
 	
 }
 
 /* From Ipad Portrait To Mobile Landscape */
 @media all and (max-width:768px) {
 	
-	/* Dashboard Screen Styles */
-	
-	/* Dashboard Screen Styles */
+	/* Home Screen Styles */
+	body h1, body h2, body h3, body p {
+		text-align: center !important;
+	}
+	.header {
+		padding: 10px 0 5px;
+	}
+	img{
+		margin: 0 auto;
+	}
+	.header .row{
+		display: block;
+	}
+	button.navbar-toggler {
+		float: right;
+		width: auto;
+		margin-top: 10px;
+		margin-right: 20px;
+	}
+	.collapse:not(.show) {
+		display: none !important;
+	}
+	button.navbar-toggler {
+		display: block;
+	}
+	.logo{
+		float: left;
+		width: auto !important;
+	}
+	.primary-nav{
+		float:right;
+		width: auto;
+		text-align: center;
+	}
+	.primary-nav ul {
+		float: none;
+	}
+	.primary-nav li{
+		float:none;
+	}
+	.profile-image {
+		text-align: center;
+	}	
+	.process .col-lg-4 {
+		margin-bottom: 20px;
+	}
+	.how-it-works .col-2 {
+		width: 50%;
+	}
+	/* Home Screen Styles */
 	
 	
 }
@@ -30,7 +110,9 @@
 /* From Mobile Landscape To Portrait */
 @media all and (max-width:480px){
 	
-	/* Dashboard Screen Styles */
-	
+	/* Home Screen Styles */
+	.how-it-works .col-2 {
+		width: 100%;
+	}
 	
 }
