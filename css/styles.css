@@ -102,7 +102,7 @@ ul.card {
     width: 100%;
 }
 .primary-nav {
-    padding-top: 9px;
+    padding-top: 25px;
 }
 .primary-nav ul {
     float: right;
@@ -143,7 +143,9 @@ ul.card {
 	text-align: left;
 }
 
-.callout-message .btn-primary,.call-to-action .btn-primary {
+.callout-message .btn-primary,
+.call-to-action .btn-primary,
+.app-buttons .btn-primary {
 	font-family: 'robotoregular';
     background: #0066FF;
     border-radius: 21px;
@@ -171,20 +173,6 @@ ul.card {
 
 .card-small-text {
     text-align: center;
-}
-/*
-.info .content .container > .row > .card {
-    width: 48.5%;
-}
-*/
-
-/*
-.info .row:first-child > .card {
-    width: 23.5% !important;
-}
-*/
-
-.how-it-works h1,.how-it-works > p{
 }
 .how-it-works .col-2 {
     width: 20%;
@@ -247,11 +235,16 @@ ul.card {
 .how-it-works.process .col-4 > .card p{
     font-size:14px;
 }
-/*
-.process .card {
-    width: 31%;
+.checkout-app {
+    background: url(../images/about-bg.jpg) no-repeat scroll left top;
+    text-align: center;
+    height: calc(100% - 70px);
+    display: flex;
+    align-items: center;
 }
-*/
+.checkout-app h1{
+    text-align: center;
+}
 .process h3 {
     text-align: left;
 }

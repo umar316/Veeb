@@ -76,6 +76,7 @@
 	}
 	button.navbar-toggler {
 		display: block;
+		margin-top: 25px;
 	}
 	.logo{
 		float: left;
@@ -85,12 +86,14 @@
 		float:right;
 		width: auto;
 		text-align: center;
+		padding-top: 0;
 	}
 	.primary-nav ul {
 		float: none;
 	}
 	.primary-nav li{
 		float:none;
+		margin-bottom: 10px;
 	}
 	.profile-image {
 		text-align: center;
