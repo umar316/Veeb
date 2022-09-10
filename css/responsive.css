@@ -125,6 +125,12 @@
 		border-right: 0;
 		border-bottom: 3px solid #5B67CA;
 	}
+	.call-to-action .wrapper {
+		padding: 30px 15px 30px;
+	}
+	.footer {
+		font-size: 12px;
+	}
 	/* Home Screen Styles */
 	
 	
