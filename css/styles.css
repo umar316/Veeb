@@ -237,9 +237,9 @@ ul.card {
     font-size:14px;
 }
 .checkout-app {
-    background: url(../images/about-bg.jpg) no-repeat scroll left top / 100%;
+    background: url(../images/about-bg.jpg) no-repeat scroll left center/ 100%;
     text-align: center;
-    height: calc(100% - 70px);
+    height: 688px;
     display: flex;
     align-items: center;
 }
