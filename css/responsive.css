@@ -121,6 +121,9 @@
 	.checkout-app {
 		background: #F9F9FC;
 	}
+	.consult h1 {
+		text-align: center;
+	}
 	.visa-process .col-lg-4 {
 		border-right: 0;
 		border-bottom: 3px solid #5B67CA;
