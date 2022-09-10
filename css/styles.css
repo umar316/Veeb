@@ -293,7 +293,9 @@ ul.card {
     padding-bottom: 12px;
     list-style: square;
 }
-
+.steps .before-heading {
+    font-size: 32px;
+}
 .call-to-action {
     float: none;
     padding: 0 15px;
