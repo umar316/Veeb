@@ -237,7 +237,7 @@ ul.card {
     font-size:14px;
 }
 .checkout-app {
-    background: url(../images/about-bg.jpg) no-repeat scroll 8px center / 100%;
+    background: url(../images/about-bg.jpg) no-repeat scroll left center / 100%;
     text-align: center;
     height: 688px;
     display: flex;
@@ -245,6 +245,7 @@ ul.card {
 }
 .checkout-app h1{
     text-align: center;
+    font-size: 3.5rem;
 }
 .checkout-app p {
     max-width: 413px;
